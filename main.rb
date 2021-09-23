@@ -9,6 +9,8 @@ help_text = %{
 This program takes a word template and an excel file, and creates a new word file for each data row.
 
 The template must use MailMerge fields as markers. The data file should contain column headers on the first row.
+
+The files are created in the same folder as the template, with file names [template name]-[number].
 }
 about_text = %{
 Source code available at https://github.com/nmb/template-filler .
