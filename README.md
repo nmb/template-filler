@@ -19,7 +19,7 @@ bundle install
 ```
 Run program:
 ```
-./main.rb
+ruby main.rb
 ```
 
 ## Build binary on windows
