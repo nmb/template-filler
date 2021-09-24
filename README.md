@@ -4,7 +4,8 @@ Simple utility for using data from an excel file to fill out word template.
 
 Select template and data files and press 'Go'. For each row in the data file,
 each [MailMerge field](https://en.wikipedia.org/wiki/Mail_merge) in the
-template is replaced with the corresponding data point.
+template is replaced with the corresponding data point, and saved as a new
+file.
 
 The first row of the spreadsheet should contain headers.
 
