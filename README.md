@@ -13,7 +13,7 @@ For information on how to add MailMerge fields in a word document, c.f. [Sablon
 documentation](https://github.com/senny/sablon/blob/master/misc/TEMPLATE.md).
 
 ## Instructions
-Install prerequisites:
+Install [ruby](https://www.ruby-lang.org/en/), and then prerequisites:
 
 ```
 bundle install
