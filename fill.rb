@@ -32,7 +32,7 @@ def fill_all(datasheet, template_file, suffix_key = nil)
     if(suffix_key && d.to_h.has_key?(suffix_key))
       sx = "-#{sanitize(d[suffix_key])}"
     else
-      sx = "-#{i+1}"
+      sx = "-%03d" % (i+1)
     end
     fill(d.to_h, template, sx, template_file)
   end
