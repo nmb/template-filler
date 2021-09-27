@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'libui'
-require './fill.rb'
+require_relative 'fill.rb'
 
 UI = LibUI
 
@@ -19,7 +19,7 @@ The template must use MailMerge fields as markers. The data file should contain
 column headers on the first row, corresponding to the MailMerge field names.
 
 After a data file has been loaded, it is possible to select a header to use as
-suffix for the resulting files.  
+suffix for the resulting files, otherwise a counter is used.
 
 The files are created in the same folder as the template, with file names
 [template name]-[suffix].
