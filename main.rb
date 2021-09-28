@@ -25,8 +25,13 @@ The files are created in the same folder as the template, with file names
 [template name]-[suffix].
 }
 about_text = %{
-Source code available at https://github.com/nmb/template-filler .
+Source code available at:
+https://github.com/nmb/template-filler .
 }
+if(File.exist?(File.expand_path('version.rb', File.dirname(__FILE__))))
+  require_relative 'version.rb'
+  about_text = @version + about_text
+end
 
 UI.init
 

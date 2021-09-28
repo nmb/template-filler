@@ -34,6 +34,6 @@ gem install ocra
 Create executable:
 
 ```
-ocra --dll ruby_builtin_dlls/libssp-0.dll --dll ruby_builtin_dlls/libgmp-10.dll --dll ruby_builtin_dlls/libffi-7.dll --dll ruby_builtin_dlls\zlib1.dll --dll ruby_builtin_dlls\libssl-1_1-x64.dll --dll ruby_builtin_dlls/libcrypto-1_1-x64.dll --gem-full=openssl --gem-all=fiddle --gem-all=libui --chdir-first --add-all-core --output template-filler.exe --gem-all main.rb
+rake build
 ```
 
