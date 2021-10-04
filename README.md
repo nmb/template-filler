@@ -7,7 +7,7 @@ each [MailMerge field](https://en.wikipedia.org/wiki/Mail_merge) in the
 template is replaced with the corresponding data point, and saved as a new
 file.
 
-The first row of the spreadsheet should contain headers.
+The first row of the spreadsheet should contain headers (c.f. example sub folder).
 
 For information on how to add MailMerge fields in a word document, c.f. [Sablon
 documentation](https://github.com/senny/sablon/blob/master/misc/TEMPLATE.md).
