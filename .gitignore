@@ -1,3 +1,6 @@
 *.swp
 version.rb
-
+.ruby-version
+.ruby-gemset
+# Gladiator (Glimmer Editor)
+.gladiator

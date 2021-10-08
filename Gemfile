@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'libui'
+gem 'glimmer-dsl-libui'
 gem 'rake'
 gem 'roo'
 gem 'sablon'
