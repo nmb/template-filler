@@ -131,7 +131,7 @@ end
 begin
   main unless defined?(Ocra)
 rescue Exception => e
-    f = Tempfile.new(['template-filler-', '.log']) 
+    f = Tempfile.create(['template-filler-', '.log']) 
     f.puts e.inspect
     f.puts e.backtrace
     f.close
