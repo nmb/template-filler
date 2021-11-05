@@ -12,13 +12,13 @@ def main
 @cbox
 
 help_text = %{
-This program takes a template (word file) and a data source (excel file), and
+This program takes a template (word file) and a data source (excel file), and \
 creates a new word file for each data row.
 
-The template must use MailMerge fields as markers. The data file should contain
+The template must use MailMerge fields as markers. The data file should contain \
 column headers on the first row, corresponding to the MailMerge field names.
 
-After a data file has been loaded, it is possible to select a header to use as
+After a data file has been loaded, it is possible to select a header to use as \
 suffix for the resulting files, otherwise a counter is used.
 
 The files are created in the same folder as the template, with file names
